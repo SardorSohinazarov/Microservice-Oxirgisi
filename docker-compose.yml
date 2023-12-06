@@ -17,3 +17,12 @@ services:
     ports:
       - "80"
 
+
+  authenticationapi:
+    image: ${DOCKER_REGISTRY-}authenticationapi
+    build:
+      context: .
+      dockerfile: AuthenticationAPI/Dockerfile
+    ports:
+      - "80" 
+
