@@ -26,3 +26,10 @@ services:
     ports:
       - "80" 
 
+
+  productservice:
+    image: ${DOCKER_REGISTRY-}productservice
+    build:
+      context: .
+      dockerfile: ProductService/Dockerfile
+

@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "APIGateway\AP
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6E279E79-B707-4802-9181-FF221502013F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationAPI", "AuthenticationAPI\AuthenticationAPI.csproj", "{9AECE342-8BFB-4E8C-B63A-E5E5FF6E76FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationAPI", "AuthenticationAPI\AuthenticationAPI.csproj", "{9AECE342-8BFB-4E8C-B63A-E5E5FF6E76FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{F372E453-838B-4C22-A18D-F1D8AE75F64C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9AECE342-8BFB-4E8C-B63A-E5E5FF6E76FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AECE342-8BFB-4E8C-B63A-E5E5FF6E76FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AECE342-8BFB-4E8C-B63A-E5E5FF6E76FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F372E453-838B-4C22-A18D-F1D8AE75F64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F372E453-838B-4C22-A18D-F1D8AE75F64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F372E453-838B-4C22-A18D-F1D8AE75F64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F372E453-838B-4C22-A18D-F1D8AE75F64C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
